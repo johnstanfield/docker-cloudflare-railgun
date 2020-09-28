@@ -17,10 +17,11 @@ https://www.cloudflare.com/website-optimization/railgun/
  - 2408/TCP
 
 ### Environment Variables
- - RG_ACT_TOKEN   Token from Cloudflare Portal
- - RG_ACT_HOST    External IP address of Host
- - RG_LOG_LEVEL   Logging Level : default: 1
- - RG_WAN_PORT    External Port : default: 2408
+ - RG_ACT_TOKEN         Token from Cloudflare Portal
+ - RG_ACT_HOST          External IP address of Host
+ - RG_LOG_LEVEL         Logging Level : default: 0
+ - RG_WAN_PORT          External Port : default: 2408
+ - RG_MEMCACHED_SERVERS Memcached server(s) : default : linked memcached container
  
 ### Command Line
  ``` 
